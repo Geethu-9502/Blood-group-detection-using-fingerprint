@@ -65,5 +65,4 @@ Blood_group-detection-using-fingerprint-main/
 
 🔬 **Conclusion**
 This project demonstrates a practical implementation of biometric blood group prediction using fingerprints. It combines the accuracy of machine learning with the accessibility of image processing tools to create a healthcare aid that can be crucial in emergencies or rural healthcare setups.
-📢 **Thank You!**
 
