@@ -8,19 +8,19 @@ The goal of this project is to develop a cost-effective and contactless method t
 
 🚀 **Features**
 
-* Fingerprint Acquisition via GUI
-* Image Preprocessing and Feature Extraction (Minutiae detection)
-* Blood Group Prediction using ML Classifier
-* Graphical User Interface (Tkinter)
+* User Authentication System
+* Fingerprint Image Upload
+* Blood Group Prediction 
+* Interactive User Interface
 * User-Friendly Interface for Medical Use
-* Offline Capability (no need for cloud connectivity)
+* Security Features
 
 🛠️ **Technologies Used**
 
-* **Development Platform:** Python with Tkinter
-* **Libraries & Tools:** OpenCV, scikit-learn, NumPy, PIL, joblib
-* **Machine Learning Model:** Random Forest Classifier
-* **Image Processing:** Minutiae-based fingerprint feature extraction
+* **Development Platform:** Python , MangoDM
+* **Libraries & Tools:** Flask, keras , TensorFlow , Numpy , PIL, joblib
+* **Machine Learning Model:** Resnet based CNN
+
 
 📝 **Installation Steps**
 
@@ -44,18 +44,26 @@ The goal of this project is to develop a cost-effective and contactless method t
 
 ```
 Blood_group-detection-using-fingerprint-main/
-├── dataset/                    # Fingerprint samples
-├── features/                   # Extracted fingerprint features
-├── min_gun_detect.py          # Minutiae detection script
-├── main.py                    # Entry point with GUI
-├── model.pkl                  # Pre-trained Random Forest model
-├── train_model.py             # Model training script
-├── requirements.txt
-└── README.md
+│
+├── app.py                           # Main Flask application (routes, API, ML inference, MongoDB)
+├── requirements.txt                 # Python dependencies for reproducibility
+├── model_blood_group_detection_resnet.keras   # Pre-trained ResNet model for blood group detection
+│
+├── static/                          # Static assets (CSS, JS, images)
+│   └── css/
+│       └── style.css                # Custom CSS styles for UI
+│
+├── templates/                       # Jinja2 HTML templates (rendered by Flask)
+│   ├── index.html                   # Homepage
+│   ├── signin.html                  # Login page
+│   ├── signup.html                  # Registration page
+│   └── upload.html                  # Upload fingerprint & show predictions
+│
+└── README.md                        # Project description 
+
 ```
 
 🔬 **Conclusion**
-This project demonstrates a practical implementation of biometric blood group prediction using fingerprints. It combines the accuracy of machine learning with the accessibility of image processing tools to create a healthcare aid that can be crucial in emergencies or rural healthcare setups. Future expansions may include mobile integration or live fingerprint scanning support.
-
+This project demonstrates a practical implementation of biometric blood group prediction using fingerprints. It combines the accuracy of machine learning with the accessibility of image processing tools to create a healthcare aid that can be crucial in emergencies or rural healthcare setups.
 📢 **Thank You!**
 
