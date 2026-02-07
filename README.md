@@ -18,7 +18,7 @@ The goal of this project is to develop a cost-effective and contactless method t
 🛠️ **Technologies Used**
 
 * **Development Platform:** Python , MangoDM
-* **Libraries & Tools:** Flask, keras , TensorFlow , Numpy , PIL
+* **Libraries & Tools:** Flask, keras , TensorFlow 
 * **Machine Learning Model:** Resnet based CNN
 
 
